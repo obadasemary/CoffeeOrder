@@ -40,9 +40,16 @@ struct OrderListView: View {
                         
                         HStack {
                             Text(order.coffeeName)
-                                .padding()
+                                .padding(EdgeInsets(top: 10, leading: 10, bottom: 10, trailing: 10))
+                                .background(Color.gray)
+                                .foregroundColor(.white)
+                                .cornerRadius(10)
                                 
                             Text(order.size)
+                                .padding(EdgeInsets(top: 10, leading: 10, bottom: 10, trailing: 10))
+                                .background(Color.blue)
+                                .foregroundColor(.white)
+                                .cornerRadius(10)
                         }
                     }
                 }
