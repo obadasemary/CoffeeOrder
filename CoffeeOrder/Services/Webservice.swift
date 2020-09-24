@@ -9,7 +9,7 @@ import Foundation
 
 class Webservice {
     
-    let path = "https://candle-bouncy-observation.glitch.me"
+    let path = "https://island-bramble.glitch.me/"
     let orders = "orders"
     
     func getAllOrders(completion: @escaping ([Order]?) -> ()) {
