@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF0A9DDF251D630200AB428A /* CreateOrderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0A9DDE251D630200AB428A /* CreateOrderResponse.swift */; };
 		AFF23642251D319A007F7BEE /* CoffeeOrderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF23641251D319A007F7BEE /* CoffeeOrderApp.swift */; };
 		AFF23644251D319A007F7BEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF23643251D319A007F7BEE /* ContentView.swift */; };
 		AFF23646251D319E007F7BEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFF23645251D319E007F7BEE /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AF0A9DDE251D630200AB428A /* CreateOrderResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrderResponse.swift; sourceTree = "<group>"; };
 		AFF2363E251D319A007F7BEE /* CoffeeOrder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeOrder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFF23641251D319A007F7BEE /* CoffeeOrderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeOrderApp.swift; sourceTree = "<group>"; };
 		AFF23643251D319A007F7BEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 			children = (
 				AFF23670251D325E007F7BEE /* Coffee.swift */,
 				AFF23678251D330D007F7BEE /* Order.swift */,
+				AF0A9DDE251D630200AB428A /* CreateOrderResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 			files = (
 				AFF23644251D319A007F7BEE /* ContentView.swift in Sources */,
 				AFF23690251D55C5007F7BEE /* OrderListView.swift in Sources */,
+				AF0A9DDF251D630200AB428A /* CreateOrderResponse.swift in Sources */,
 				AFF23642251D319A007F7BEE /* CoffeeOrderApp.swift in Sources */,
 				AFF23679251D330D007F7BEE /* Order.swift in Sources */,
 				AFF23685251D3F81007F7BEE /* OrderListViewModel.swift in Sources */,
