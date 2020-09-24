@@ -17,6 +17,7 @@
 		AFF23679251D330D007F7BEE /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF23678251D330D007F7BEE /* Order.swift */; };
 		AFF23680251D3D8F007F7BEE /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF2367F251D3D8F007F7BEE /* Webservice.swift */; };
 		AFF23685251D3F81007F7BEE /* OrderListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF23684251D3F81007F7BEE /* OrderListViewModel.swift */; };
+		AFF2368A251D3FC3007F7BEE /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF23689251D3FC3007F7BEE /* OrderViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		AFF23678251D330D007F7BEE /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		AFF2367F251D3D8F007F7BEE /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		AFF23684251D3F81007F7BEE /* OrderListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewModel.swift; sourceTree = "<group>"; };
+		AFF23689251D3FC3007F7BEE /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				AFF23684251D3F81007F7BEE /* OrderListViewModel.swift */,
+				AFF23689251D3FC3007F7BEE /* OrderViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 				AFF23679251D330D007F7BEE /* Order.swift in Sources */,
 				AFF23685251D3F81007F7BEE /* OrderListViewModel.swift in Sources */,
 				AFF23680251D3D8F007F7BEE /* Webservice.swift in Sources */,
+				AFF2368A251D3FC3007F7BEE /* OrderViewModel.swift in Sources */,
 				AFF23671251D325E007F7BEE /* Coffee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
