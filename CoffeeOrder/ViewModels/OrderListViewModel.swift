@@ -9,5 +9,16 @@ import Foundation
 
 class OrderListViewModel: ObservableObject {
     
+    var orders = [OrderViewModel]()
     
+    func fetchOrders() {
+        
+        Webservice().getAllOrders { orders in
+            
+            if let orders = orders {
+                
+                self.orders = orders.map(OrderViewModel.init)
+            }
+        }
+    }
 }
