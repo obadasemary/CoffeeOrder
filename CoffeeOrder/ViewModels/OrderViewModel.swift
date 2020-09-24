@@ -9,6 +9,7 @@ import Foundation
 
 class OrderViewModel: ObservableObject {
     
+    let id = UUID()
     var order: Order
     
     init(order: Order) {
