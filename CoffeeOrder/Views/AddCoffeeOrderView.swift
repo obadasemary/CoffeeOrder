@@ -11,6 +11,7 @@ struct AddCoffeeOrderView: View {
     
     // MARK: - PROPERTIES
     
+    @Binding var isPresented: Bool
     @ObservedObject private var addCoffeeOrderVM = AddCoffeeOrderViewModel()
     
     // MARK: - BODY
@@ -62,6 +63,8 @@ struct AddCoffeeOrderView: View {
                     Button(action: {
                         
                         self.addCoffeeOrderVM.placeOrder()
+                        self.isPresented = false
+                        
                     }, label: {
                         Text("Place Order")
                     })
@@ -78,6 +81,6 @@ struct AddCoffeeOrderView: View {
 
 struct AddCoffeeOrderView_Previews: PreviewProvider {
     static var previews: some View {
-        AddCoffeeOrderView()
+        AddCoffeeOrderView(isPresented: .constant(false))
     }
 }
