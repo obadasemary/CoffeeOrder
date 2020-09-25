@@ -34,11 +34,13 @@ struct OrderListView: View {
                         .cornerRadius(16)
                     
                     VStack {
+                        
                         Text(order.name)
                             .font(.title)
                             .padding([.leading, .bottom], 10)
                         
                         HStack {
+                            
                             Text(order.coffeeName)
                                 .padding(EdgeInsets(top: 10, leading: 10, bottom: 10, trailing: 10))
                                 .background(Color.gray)
