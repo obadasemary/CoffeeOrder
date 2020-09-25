@@ -20,7 +20,7 @@ extension Coffee {
         
         [
             Coffee(name: "Cappuccino", imageURL: "Cappuccino", price: 2.5),
-            Coffee(name: "Espresso", imageURL: "Expresso", price: 2.1),
+            Coffee(name: "Expresso", imageURL: "Expresso", price: 2.1),
             Coffee(name: "Regular", imageURL: "Regular", price: 1.5)
         ]
     }
